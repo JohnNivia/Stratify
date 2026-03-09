@@ -1,0 +1,38 @@
+body {
+    height: 100vh;
+    justify-content: center;
+    background: linear-gradient(100deg, #000000, #adb1a1 );
+}
+h1 {
+    display: flex;
+    font-family: 'sans-serif';
+    color: #000000;
+    color: #ebb113;
+    justify-content: center;
+    
+}
+.form-group {
+    color: #ccc;
+    display: flex;
+    flex-direction: column;
+    padding: 85px;
+    gap: 13px;
+}
+button{
+    background-color: #ebb113;
+    color: #42443E;
+    padding: 15px;
+    align-items: center;
+    margin-top: 10px;
+    border-top: 13px;
+    border-radius: 6px;
+    border: 1px solid red;
+    
+}
+button:hover {
+    transform: translate(-1px) scale(1,1);
+    box-shadow: 0 1px 25px black;
+    transition: all 0.3s ease;
+    background-color: #fdbe0f;
+}
+

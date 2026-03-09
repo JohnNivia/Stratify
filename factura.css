@@ -1,0 +1,36 @@
+body{
+    height: 150vh;
+    justify-content: center;
+    background: linear-gradient(100deg, #000000, #adb1a1 );
+}
+h1 {
+    display: flex;
+    font-family: 'sans-serif';
+    color: #000000;
+    color: #ebb113;
+    justify-content: center;
+}
+    
+.form-group {
+    color: #ccc;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    gap: 13px;
+}
+
+.section-title{
+    color: #ccc;
+    display: flex;
+    flex-direction: column ;
+    gap: 13px;  
+}
+.table-container {
+    color: black;
+    background: linear-gradient(100deg, #000000, #adb1a1 );
+}
+
+.company-info{
+    color: #ccc;
+    flex-direction:  column;
+}
