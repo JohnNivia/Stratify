@@ -15,7 +15,7 @@
     </style>
 </head>
 <body>
-    <h1>Ingresar nuevo producto</h1>
+    <h1>Buscar producto</h1>
     <form action="#" method="post">
         <div class="form-group">
             <label for="codigo_producto">Codigo producto<span class="required">*</span></label>
@@ -28,18 +28,16 @@
             <input type="text" id="cantidad" name="cantidad"required>
             
             <label for="costo">Costo<span class="required">*</span></label>
-            <select name="costo" id="costo" required>
+            <input type="int" name="costo" id="costo" required>
 
             </select>
 
             <label for="fecha_ingreso">Fecha ingreso<span class="required">*</span></label>
             <input type="text" id="fecha_ingreso" name="fecha_ingreso" required>
             
-            <label for="fecha_vencimiento">Fecha vencimiento<span class="required">*</span></label>
-            <input type="text" id="fecha_vencimiento" name="fecha_vencimiento"required>
-            
+            <button type="submit">Buscar producto</button>
         </div>
-        <button type="submit">Ingresar producto</button>
+        
     
     </form>
     
