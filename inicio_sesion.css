@@ -3,7 +3,7 @@ body {
     height: 100vh;
     align-items: center;
     justify-content: center;
-     background: linear-gradient(150deg, #000000,#adb1a1);
+    background: linear-gradient(150deg, #000000,#adb1a1);
 }
 .div-formulario {
     display: flex;
@@ -11,18 +11,19 @@ body {
     align-items: center;
     background: linear-gradient(150deg,#adb1a1, #000000);
     border: 1px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0 0 15px 2px #FDD76E;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 2px #FDD76E;
+
 }
 .formulario {
     display: flex;
     flex-direction: column;
-
-    padding: 30px;
-    gap: 35px;
-    
+    padding: 40px;
+    gap: 18px;
 }
-
+a{
+    color: #ebb113     
+}
 
 h1 {
     font-family: 'sans-serif';
