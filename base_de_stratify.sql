@@ -1,4 +1,4 @@
-CREATE DATABASE STRATIFY;
+CREATE DATABASE STRATIFY character set utf8mb4;;
 USE STRATIFY;
 -- ------------------------------------------------------------
 -- DDL 
